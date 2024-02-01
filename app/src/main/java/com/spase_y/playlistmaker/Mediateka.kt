@@ -10,7 +10,6 @@ class Mediateka : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mediateka)
         val arrowBack = findViewById<ImageButton>(R.id.buttonBack)
-        val text = "Заметка для себя"
         arrowBack.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
         }
