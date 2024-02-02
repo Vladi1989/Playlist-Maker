@@ -41,6 +41,7 @@
              android:textSize="@dimen/playlist_maker_size"
              android:textColor="@color/button_text_color"
              android:text="@string/find"
+             android:fontFamily="@font/ys_display_medium"
              android:drawablePadding="@dimen/drawable_padding"
              android:drawableStart="@drawable/find"
              android:layout_gravity="center"/>
@@ -62,6 +63,7 @@
                 android:layout_gravity="center"
                 android:drawableStart="@drawable/mediateka"
                 android:drawablePadding="@dimen/drawable_padding"
+                android:fontFamily="@font/ys_display_medium"
                 android:text="@string/mediateka"
                 android:textColor="@color/button_text_color"
                 android:textSize="@dimen/playlist_maker_size" />
@@ -84,6 +86,7 @@
                 android:textColor="@color/button_text_color"
                 android:text="@string/settings"
                 android:drawablePadding="@dimen/drawable_padding"
+                android:fontFamily="@font/ys_display_medium"
                 android:drawableStart="@drawable/settings"
                 android:layout_gravity="center"/>
 
