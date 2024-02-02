@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Темная тема"
+                android:text="@string/dark_theme"
                 android:layout_marginStart="16dp"
                 android:textColor="@color/black"/>
 
@@ -72,7 +72,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:layout_marginStart="16dp"
-                android:text="Поделиться приложением"
+                android:text="@string/share"
                 android:textColor="@color/black"/>
 
             <Space
@@ -97,7 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Написать в поддержку"
+                android:text="@string/support"
                 android:layout_marginStart="16dp"
                 android:textColor="@color/black"/>
 
@@ -123,7 +123,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Пользовательское соглашение"
+                android:text="@string/agrement"
                 android:layout_marginStart="16dp"
                 android:textColor="@color/black"/>
 
