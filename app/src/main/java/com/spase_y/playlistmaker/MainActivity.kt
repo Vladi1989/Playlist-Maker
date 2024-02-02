@@ -23,8 +23,10 @@ class MainActivity : AppCompatActivity() {
         val find = findViewById<TextView>(R.id.find)
         find.setOnClickListener {
             startActivity(Intent(this, Find::class.java))
+//            val stat = 0
         }
     }
 }
+
 
 
